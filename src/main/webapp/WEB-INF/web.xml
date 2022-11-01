@@ -8,8 +8,8 @@
 
     <absolute-ordering />
 
-<!--    FrontController which takes INFO from  <url-pattern>/</url-pattern>  -->
-<!--    And configuration with Spring inner Controller -->
+
+<!--    And configuration servlet with Spring inner Controller -->
 
     <servlet>
         <servlet-name>dispatcher</servlet-name>
@@ -21,6 +21,7 @@
         <load-on-startup>1</load-on-startup>
     </servlet>
 
+    <!--    FrontController which takes INFO from  <url-pattern>/</url-pattern>  -->
     <servlet-mapping>
         <servlet-name>dispatcher</servlet-name>
         <url-pattern>/</url-pattern>
