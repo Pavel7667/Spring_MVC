@@ -10,3 +10,8 @@
 // add web.xml and applicationContext.xml
 
 // add some comment to this upper files
+
+// in TomCat Config change Deployment cut URL of Local Server name
+
+// create test_view + Controller for this View
+// create test_view + Controller for this View
