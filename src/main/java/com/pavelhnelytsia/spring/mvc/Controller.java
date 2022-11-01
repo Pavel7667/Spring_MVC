@@ -39,11 +39,33 @@ public class Controller {
      * <br>File should be in "/WEB-INF/view/" package and have .jsp format
      * <br> The description in applicationContext.xml must be followed.
      *
-     * @return test_view
+     * @return test_view file jsp which should go to View
      */
 
     @RequestMapping("/")
     public String showTestView() {
         return "test_view";
+    }
+
+    /**
+     * Method askFormView for URL ending like '/askDetails' give jsp/html file
+     * <br> In which USER can put some Info
+     *
+     * @return ask-form-view File jsp which should go to View
+     */
+    @RequestMapping("/askDetails")
+    public String askFormView() {
+        return "ask-form-view";
+    }
+
+    /**
+     * Method showView for URL ending like '/showDetails' give jsp/html file
+     * <br> In which USER can see output his own Info from previous URL
+     *
+     * @return show-view File jsp which should go to View
+     */
+    @RequestMapping("/showDetails")
+    public String showView() {
+        return "show-view";
     }
 }
