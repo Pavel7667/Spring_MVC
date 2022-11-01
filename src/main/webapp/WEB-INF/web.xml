@@ -8,6 +8,9 @@
 
     <absolute-ordering />
 
+<!--    FrontController which takes INFO from  <url-pattern>/</url-pattern>  -->
+<!--    And configuration with Spring inner Controller -->
+
     <servlet>
         <servlet-name>dispatcher</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
