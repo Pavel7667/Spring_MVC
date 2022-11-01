@@ -4,3 +4,5 @@
 
 // add connection with TomCat
 // If TomCat won't work, re-build project with maven faze clean
+
+// Create packages
